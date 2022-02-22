@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.domone.data-v-cc550492 {
+  height: 60px;
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.domone .ico.data-v-cc550492 {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+

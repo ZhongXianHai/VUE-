@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.headone.data-v-505c4a89 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  height: 35px;
+  line-height: 30px;
+  background: #2898ed;
+  color: #fff;
+}
+.cont.data-v-505c4a89 {
+  max-width: 50%;
+  margin: 0px 3%;
+  overflow: hidden;
+  font-size: 16px;
+}
+.img.data-v-505c4a89 {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+

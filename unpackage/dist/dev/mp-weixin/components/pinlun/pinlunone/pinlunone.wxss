@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.pinlunone.data-v-4e007199 {
+  width: 100%;
+}
+.plhead.data-v-4e007199 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.useimg.data-v-4e007199 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.usename.data-v-4e007199 {
+  flex: 1;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.usename ._p.data-v-4e007199 {
+  color: #333;
+  height: 20px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.name-date.data-v-4e007199 {
+  color: #999;
+  height: 15px;
+  line-height: 15px;
+  overflow: hidden;
+  font-size: 10px;
+}
+.pltext.data-v-4e007199 {
+  color: #333;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+}
+.plimg.data-v-4e007199 {
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,367 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",//关闭系统头部
+				"enablePullDownRefresh":true,//开启系统下拉加载
+				"backgroundTextStyle":"dark"//系统下拉加载样式
+			}
+		}
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+                "navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+		,{
+		    "path" : "pages/shop/shop",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle":"custom"//关闭系统头部
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/kefu/kefu",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/fenlei/fenlei",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+        ,{
+            "path" : "components/head/headtwo/headtwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/banner/bannerone/bannerone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/banner/bannertwo/bannertwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/navig/navigone/navigone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/shop/shopone/shopone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/adver/adverone/adverone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/head/headthree/headthree",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/tabar/tabarone/tabarone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/modty/modtyone/modtyone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/scroll/scrollone/scrollone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/huitop/huitopone/huitopone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/mon/monone/monone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/head/headfour/headfour",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/navig/navigtwo/navigtwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/navig/navigthree/navigthree",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/dom/domone/domone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "components/sand/sandone/sandone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/price/priceone/priceone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/head/headfive/headfive",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/tabar/tabartwo/tabartwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/text/textone/textone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/pinlun/pinlunone/pinlunone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/box/boxone/boxone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/img/imgone/imgone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cartcopy/cartcopy",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+        ,{
+            "path" : "components/sand/sandtwo/sandtwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signin/signin",
+            "style" :
+            {
+            	"navigationStyle":"custom"//关闭系统头部
+            }
+        }
+        ,{
+            "path" : "components/head/headsix/headsix",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/img/imgtwo/imgtwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/img/imgthree/imgthree",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/head/headseven/headseven",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+        ,{
+            "path" : "pages/asorder/asorder",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom"//关闭系统头部
+            }
+            
+        }
+    ],
+	//全局配置
+	"globalStyle": {
+		"navigationBarTextStyle": "white",//默认导航文字颜色
+		"navigationBarTitleText": "爱周边",//默认导航标题
+		"navigationBarBackgroundColor": "#2898ed",//默认导航背景颜色
+		"backgroundColor": "#eee",//下拉窗口的背景色
+		"enablePullDownRefresh":false,//开启下拉刷新
+		"onReachBottomDistance":50//下滑加载触发距离
+	},
+	//底部导航
+	"tabBar":{
+		"color":"#333333",//默认文字颜色
+		"selectedColor":"#1296db",//选中的文字颜色
+		"backgroundColor":"#fff",//导航背景色
+		"borderStyle":"black",//上边框颜色
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"/static/img/shouye.png",
+				"selectedIconPath":"/static/img/shouye-select.png"
+			},{
+				"text":"分类",
+				"pagePath":"pages/fenlei/fenlei",
+				"iconPath":"/static/img/fenlei.png",
+				"selectedIconPath":"/static/img/fenlei-select.png"
+			},{
+				"text":"客服",
+				"pagePath":"pages/kefu/kefu",
+				"iconPath":"/static/img/kefu.png",
+				"selectedIconPath":"/static/img/kefu-select.png"
+			},{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"/static/img/gouwuche.png",
+				"selectedIconPath":"/static/img/gouwuche-select.png"
+			},{
+				"text":"我的",
+				"pagePath":"pages/home/home",
+				"iconPath":"/static/img/wode.png",
+				"selectedIconPath":"/static/img/wode-select.png"
+			}
+		]
+	}
+}

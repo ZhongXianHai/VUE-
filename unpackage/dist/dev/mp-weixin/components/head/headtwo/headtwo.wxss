@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.headtwo.data-v-6bf76655 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background: #2898ed;
+  display: flex;
+  justify-content: space-between;
+}
+.headbox.data-v-6bf76655 {
+  width: 75px;
+  height: 30px;
+  margin: 0px 10px;
+}
+.headbox .img.data-v-6bf76655 {
+  width: 75px;
+  height: 30px;
+}
+.capsule.data-v-6bf76655 {
+  width: 65%;
+  height: 30px;
+  margin: 0px 10px;
+  border-radius: 15px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+}
+.capsule .img.data-v-6bf76655 {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.capsule-text.data-v-6bf76655 {
+  flex: 1;
+  height: 30px;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+}
+.textbox.data-v-6bf76655 {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+

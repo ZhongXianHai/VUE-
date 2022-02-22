@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.boxhead.data-v-2029a620 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head-left.data-v-2029a620 {
+  flex: 1;
+  line-height: 30px;
+  font-size: 14px;
+}
+.head-right.data-v-2029a620 {
+  max-width: 100px;
+  line-height: 30px;
+}
+

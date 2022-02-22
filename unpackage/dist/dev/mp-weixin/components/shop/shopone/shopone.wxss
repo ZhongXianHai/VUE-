@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.shopone.data-v-52a282f3 {
+  width: 94%;
+  margin: 0px 3% 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shopbox.data-v-52a282f3 {
+  width: 48%;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.shopimg.data-v-52a282f3 {
+  width: 100%;
+  position: relative;
+}
+.topimg.data-v-52a282f3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.shoptitle.data-v-52a282f3 {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.shopprice.data-v-52a282f3 {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.shopprice ._span.newprice.data-v-52a282f3 {
+  color: red;
+}
+.shopprice ._span.oldprice.data-v-52a282f3 {
+  margin-left: 2px;
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #999;
+}
+.shopprice .addcart.data-v-52a282f3 {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+}
+

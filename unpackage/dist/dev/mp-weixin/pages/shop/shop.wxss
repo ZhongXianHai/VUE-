@@ -1,0 +1,362 @@
+
+.sandone.data-v-6d77fe36{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	z-index: 100;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.tabartwo.data-v-1476f78a {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px #333;
+}
+.but.data-v-1476f78a {
+  width: 40px;
+  height: 50px;
+}
+.but ._p.data-v-1476f78a {
+  width: 100%;
+  line-height: 4px;
+  text-align: center;
+  color: #333;
+  font-size: 10px;
+}
+.img.data-v-1476f78a {
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px 0px;
+}
+.paybut.data-v-1476f78a {
+  flex: 1;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 18px;
+  margin: 0px 5px;
+}
+.cart.data-v-1476f78a {
+  background: #eee;
+}
+.gopay.data-v-1476f78a {
+  color: #fff;
+  background: #2898ed;
+}
+
+
+.scrollone.data-v-5298851c{
+	width: 100%;
+	height: 100%;
+}
+.scroll.data-v-5298851c{
+	width: 100%;
+	height: 100%;
+}
+
+
+.huitopone.data-v-1386fde0{
+	position: fixed;
+	bottom: 100px;
+	right: 2%;
+	z-index: 999;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0px 0px 3px #666;
+}
+.box.data-v-1386fde0{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	height: 100%;
+}
+.bg.data-v-1386fde0{
+	background: #fff;
+	opacity: 0.9;
+}
+
+
+.bannertwo.data-v-3b640b09{
+	width: 100%;
+}
+.swiper.data-v-3b640b09{
+	width: 100%;
+	height: 100%;
+}
+.img.data-v-3b640b09{
+	width:100%;
+	height: 100%;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.priceone.data-v-192a1c9e {
+  width: 86%;
+  padding: 10px 4%;
+  margin: 15px 3% 0px;
+  background: #fff;
+  border-radius: 10px;
+}
+.price.data-v-192a1c9e {
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+}
+.newprice.data-v-192a1c9e {
+  color: red;
+}
+.newprice ._span.data-v-192a1c9e {
+  font-size: 18px;
+}
+.oldprice.data-v-192a1c9e {
+  line-height: 25px;
+  font-family: "Microsoft YaHei";
+  margin-left: 10px;
+  color: #999;
+}
+.oldprice ._span.data-v-192a1c9e {
+  text-decoration: line-through;
+}
+.name.data-v-192a1c9e {
+  height: 40px;
+  margin: 5px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.name ._span.data-v-192a1c9e {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.butlist.data-v-192a1c9e {
+  display: flex;
+  justify-content: space-between;
+}
+.bux.data-v-192a1c9e {
+  padding: 5px 10px;
+  font-family: "Microsoft YaHei";
+  color: #999;
+  font-size: 12px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.bux .img.data-v-192a1c9e {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.textone.data-v-715eb308 {
+  width: 86%;
+  padding: 10px 4%;
+  margin: 15px 3% 0px;
+  background: #fff;
+  border-radius: 10px;
+}
+.list.data-v-715eb308 {
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 14px;
+  display: flex;
+}
+.name.data-v-715eb308 {
+  color: #999;
+  overflow: hidden;
+  font-family: "Microsoft YaHei";
+}
+.cont.data-v-715eb308 {
+  flex: 1;
+  margin-left: 10px;
+}
+.cont-text.data-v-715eb308 {
+  display: flex;
+}
+.cont-text-val.data-v-715eb308 {
+  flex: 1;
+  line-height: 20px;
+}
+.cont-text-img.data-v-715eb308 {
+  width: 11px;
+  height: 11px;
+  margin: 4px 0px 4px 10px;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.boxhead.data-v-2029a620 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head-left.data-v-2029a620 {
+  flex: 1;
+  line-height: 30px;
+  font-size: 14px;
+}
+.head-right.data-v-2029a620 {
+  max-width: 100px;
+  line-height: 30px;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.pinlunone.data-v-4e007199 {
+  width: 100%;
+}
+.plhead.data-v-4e007199 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.useimg.data-v-4e007199 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.usename.data-v-4e007199 {
+  flex: 1;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.usename ._p.data-v-4e007199 {
+  color: #333;
+  height: 20px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.name-date.data-v-4e007199 {
+  color: #999;
+  height: 15px;
+  line-height: 15px;
+  overflow: hidden;
+  font-size: 10px;
+}
+.pltext.data-v-4e007199 {
+  color: #333;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+}
+.plimg.data-v-4e007199 {
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.imgone.data-v-1a38b918 {
+  width: 100%;
+}
+.imgone-title.data-v-1a38b918 {
+  height: 40px;
+  display: flex;
+  color: #999;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.imgone-title ._p.data-v-1a38b918 {
+  width: 40px;
+  height: 1px;
+  margin: 0px 10px;
+  background: #ddd;
+}
+.imgone-image.data-v-1a38b918 {
+  width: 100%;
+  padding-bottom: 10px;
+  background: #fff;
+}
+.xqimg.data-v-1a38b918 {
+  width: 98%;
+  margin: -3px 1%;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.shopbox.data-v-71bf3ec6 {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+}
+.skutext.data-v-71bf3ec6 {
+  width: 100%;
+  height: 26px;
+  margin: 5px 0px;
+  line-height: 26px;
+  display: flex;
+}
+.skutext-img.data-v-71bf3ec6 {
+  flex: 1;
+  overflow: hidden;
+}
+.skutext-img .skutextimg.data-v-71bf3ec6 {
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+.skutext-val.data-v-71bf3ec6 {
+  padding: 0px 5px;
+  background: #eee;
+  color: #999;
+  font-family: "Microsoft YaHei";
+  border-radius: 5px;
+  font-size: 12px;
+}
+.box-right-one.data-v-71bf3ec6 {
+  color: #2898ed;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.box-right-img.data-v-71bf3ec6 {
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+}
+

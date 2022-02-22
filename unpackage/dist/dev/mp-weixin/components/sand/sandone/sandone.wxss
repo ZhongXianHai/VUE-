@@ -1,0 +1,9 @@
+
+.sandone.data-v-6d77fe36{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	z-index: 100;
+}
+

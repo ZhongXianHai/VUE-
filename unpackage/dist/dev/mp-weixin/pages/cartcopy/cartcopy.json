@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "headthree": "/components/head/headthree/headthree",
+    "scrollone": "/components/scroll/scrollone/scrollone",
+    "modtyone": "/components/modty/modtyone/modtyone",
+    "tabarone": "/components/tabar/tabarone/tabarone"
+  }
+}

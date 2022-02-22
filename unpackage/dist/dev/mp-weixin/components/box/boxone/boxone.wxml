@@ -1,0 +1,1 @@
+<view class="boxone box data-v-2029a620"><view class="boxhead data-v-2029a620"><view class="head-left data-v-2029a620">{{title}}</view><view data-event-opts="{{[['tap',[['boxbut']]]]}}" class="head-right data-v-2029a620" bindtap="__e"><slot name="right"></slot></view></view><slot></slot></view>

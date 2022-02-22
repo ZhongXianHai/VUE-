@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.textone.data-v-715eb308 {
+  width: 86%;
+  padding: 10px 4%;
+  margin: 15px 3% 0px;
+  background: #fff;
+  border-radius: 10px;
+}
+.list.data-v-715eb308 {
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 14px;
+  display: flex;
+}
+.name.data-v-715eb308 {
+  color: #999;
+  overflow: hidden;
+  font-family: "Microsoft YaHei";
+}
+.cont.data-v-715eb308 {
+  flex: 1;
+  margin-left: 10px;
+}
+.cont-text.data-v-715eb308 {
+  display: flex;
+}
+.cont-text-val.data-v-715eb308 {
+  flex: 1;
+  line-height: 20px;
+}
+.cont-text-img.data-v-715eb308 {
+  width: 11px;
+  height: 11px;
+  margin: 4px 0px 4px 10px;
+}
+

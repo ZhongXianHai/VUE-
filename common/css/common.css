@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "思源黑体";
+  src: url('@/static/font/siyuanheiti.otf');
+}
+body{
+	/* background: #f7f7f7; */
+	background: #eee;
+	/* #ifdef  H5 || APP-PLUS */
+	font-family: "思源黑体";
+	/* #endif */
+	font-size: 13px;
+	user-select: none;
+	color: #000;
+}
+image{
+	width: 100%;
+	height: 100%;
+}
+input{
+	border: 0px;
+	outline: none;
+	caret-color:#2898ed;/*光标颜色*/
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.headfour.data-v-617bc70a {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 96%;
+  padding: 0px 2%;
+  height: 35px;
+  line-height: 35px;
+  background: #2898ed;
+}
+.headfour .img.data-v-617bc70a {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  z-index: 10;
+}
+.capsule-text.data-v-617bc70a {
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+  color: #666;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.textbox.data-v-617bc70a {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 30px;
+}
+

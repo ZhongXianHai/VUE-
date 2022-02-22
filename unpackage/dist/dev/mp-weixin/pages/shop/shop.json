@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "sandone": "/components/sand/sandone/sandone",
+    "headone": "/components/head/headone/headone",
+    "tabartwo": "/components/tabar/tabartwo/tabartwo",
+    "scrollone": "/components/scroll/scrollone/scrollone",
+    "huitopone": "/components/huitop/huitopone/huitopone",
+    "bannertwo": "/components/banner/bannertwo/bannertwo",
+    "priceone": "/components/price/priceone/priceone",
+    "textone": "/components/text/textone/textone",
+    "boxone": "/components/box/boxone/boxone",
+    "pinlunone": "/components/pinlun/pinlunone/pinlunone",
+    "imgone": "/components/img/imgone/imgone"
+  }
+}

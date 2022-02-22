@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/home/home",
+    "pages/shop/shop",
+    "pages/kefu/kefu",
+    "pages/fenlei/fenlei",
+    "components/head/headtwo/headtwo",
+    "components/banner/bannerone/bannerone",
+    "components/banner/bannertwo/bannertwo",
+    "components/navig/navigone/navigone",
+    "components/shop/shopone/shopone",
+    "components/adver/adverone/adverone",
+    "components/head/headthree/headthree",
+    "components/tabar/tabarone/tabarone",
+    "components/modty/modtyone/modtyone",
+    "components/scroll/scrollone/scrollone",
+    "components/huitop/huitopone/huitopone",
+    "components/mon/monone/monone",
+    "components/head/headfour/headfour",
+    "components/navig/navigtwo/navigtwo",
+    "components/navig/navigthree/navigthree",
+    "components/dom/domone/domone",
+    "components/sand/sandone/sandone",
+    "components/price/priceone/priceone",
+    "components/head/headfive/headfive",
+    "components/tabar/tabartwo/tabartwo",
+    "components/text/textone/textone",
+    "components/pinlun/pinlunone/pinlunone",
+    "components/box/boxone/boxone",
+    "components/img/imgone/imgone",
+    "pages/cartcopy/cartcopy",
+    "components/sand/sandtwo/sandtwo",
+    "pages/signin/signin",
+    "components/head/headsix/headsix"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "爱周边",
+    "navigationBarBackgroundColor": "#2898ed",
+    "backgroundColor": "#eee",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/img/shouye.png",
+        "selectedIconPath": "/static/img/shouye-select.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/fenlei/fenlei",
+        "iconPath": "/static/img/fenlei.png",
+        "selectedIconPath": "/static/img/fenlei-select.png"
+      },
+      {
+        "text": "客服",
+        "pagePath": "pages/kefu/kefu",
+        "iconPath": "/static/img/kefu.png",
+        "selectedIconPath": "/static/img/kefu-select.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "/static/img/gouwuche.png",
+        "selectedIconPath": "/static/img/gouwuche-select.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/home/home",
+        "iconPath": "/static/img/wode.png",
+        "selectedIconPath": "/static/img/wode-select.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

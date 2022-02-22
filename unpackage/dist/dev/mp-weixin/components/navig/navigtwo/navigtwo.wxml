@@ -1,0 +1,1 @@
+<view class="navigtwo data-v-2794ee96"><block wx:for="{{classdata}}" wx:for-item="item" wx:for-index="index"><view data-event-opts="{{[['tap',[['classselect',[['o',['index',index]]]]]]]}}" class="{{['navigbox','data-v-2794ee96',index==classindex?'select':'']}}" bindtap="__e">{{item.name}}</view></block></view>

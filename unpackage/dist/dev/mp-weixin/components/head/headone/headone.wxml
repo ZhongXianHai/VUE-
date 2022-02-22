@@ -1,0 +1,1 @@
+<view class="headone data-v-505c4a89" style="{{'padding-top:'+(topheight+'px')+';'}}"><image class="img data-v-505c4a89" src="../../../static/img/fanhui.png" data-event-opts="{{[['tap',[['fanhui',['$event']]]]]}}" bindtap="__e"></image><view class="cont data-v-505c4a89">{{title}}</view></view>

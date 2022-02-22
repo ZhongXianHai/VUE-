@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['gotop',['$event']]]]]}}" class="huitopone data-v-1386fde0" bindtap="__e"><view class="box bg data-v-1386fde0"></view><image class="box data-v-1386fde0" src="../../../static/img/gotop.png"></image></view>

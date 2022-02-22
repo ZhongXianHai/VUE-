@@ -1,0 +1,217 @@
+
+.sandone.data-v-6d77fe36{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	z-index: 100;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.headtwo.data-v-6bf76655 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background: #2898ed;
+  display: flex;
+  justify-content: space-between;
+}
+.headbox.data-v-6bf76655 {
+  width: 75px;
+  height: 30px;
+  margin: 0px 10px;
+}
+.headbox .img.data-v-6bf76655 {
+  width: 75px;
+  height: 30px;
+}
+.capsule.data-v-6bf76655 {
+  width: 65%;
+  height: 30px;
+  margin: 0px 10px;
+  border-radius: 15px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+}
+.capsule .img.data-v-6bf76655 {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.capsule-text.data-v-6bf76655 {
+  flex: 1;
+  height: 30px;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+}
+.textbox.data-v-6bf76655 {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+
+
+.huitopone.data-v-1386fde0{
+	position: fixed;
+	bottom: 100px;
+	right: 2%;
+	z-index: 999;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0px 0px 3px #666;
+}
+.box.data-v-1386fde0{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	height: 100%;
+}
+.bg.data-v-1386fde0{
+	background: #fff;
+	opacity: 0.9;
+}
+
+
+.bannerone.data-v-1ef810bd{
+	width: 100%;
+	height: 210px;
+	overflow: hidden;
+}
+.swiper.data-v-1ef810bd{
+	width: 100%;
+	height: 100%;
+}
+.swiperimg.data-v-1ef810bd{
+	width: 100%;
+	height: 100%;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.navigone.data-v-a8196854 {
+  width: 94%;
+  margin: 10px 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navigbox.data-v-a8196854 {
+  width: 16%;
+  padding: 5px 2%;
+  border-radius: 5px;
+  background: #fff;
+}
+.navigimg.data-v-a8196854 {
+  width: 80%;
+  margin: 10%;
+}
+.navigtext.data-v-a8196854 {
+  width: 100%;
+  margin-top: -6px;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.shopone.data-v-52a282f3 {
+  width: 94%;
+  margin: 0px 3% 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shopbox.data-v-52a282f3 {
+  width: 48%;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.shopimg.data-v-52a282f3 {
+  width: 100%;
+  position: relative;
+}
+.topimg.data-v-52a282f3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.shoptitle.data-v-52a282f3 {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.shopprice.data-v-52a282f3 {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.shopprice ._span.newprice.data-v-52a282f3 {
+  color: red;
+}
+.shopprice ._span.oldprice.data-v-52a282f3 {
+  margin-left: 2px;
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #999;
+}
+.shopprice .addcart.data-v-52a282f3 {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.domone.data-v-cc550492 {
+  height: 60px;
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.domone .ico.data-v-cc550492 {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+
+.scroll.data-v-57280228{
+	width: 100%;
+	height: calc(100vh - 50px);
+	overflow: hidden;
+}
+

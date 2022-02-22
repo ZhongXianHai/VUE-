@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.headsix.data-v-636a20fe {
+  width: 100%;
+  position: relative;
+}
+.use.data-v-636a20fe {
+  position: absolute;
+  top: 80rpx;
+  left: 0px;
+  width: 94%;
+  margin: 50rpx 3%;
+  display: flex;
+  overflow: hidden;
+}
+.useimg.data-v-636a20fe {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #eee;
+}
+.usename.data-v-636a20fe {
+  flex: 1;
+  margin-left: 20rpx;
+  line-height: 30px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+.usenv.data-v-636a20fe {
+  margin-left: 25px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 10;
+}
+

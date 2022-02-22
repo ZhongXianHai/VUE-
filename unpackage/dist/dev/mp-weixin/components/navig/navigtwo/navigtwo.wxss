@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.navigtwo.data-v-2794ee96 {
+  width: 100%;
+}
+.navigbox.data-v-2794ee96 {
+  margin: 10px 5px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+.select.data-v-2794ee96 {
+  color: #fff;
+  background: #2898ed;
+}
+

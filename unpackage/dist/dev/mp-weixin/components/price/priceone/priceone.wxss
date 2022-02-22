@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ */
+/* 颜色 */
+/* 文字尺寸 */
+.priceone.data-v-192a1c9e {
+  width: 86%;
+  padding: 10px 4%;
+  margin: 15px 3% 0px;
+  background: #fff;
+  border-radius: 10px;
+}
+.price.data-v-192a1c9e {
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+}
+.newprice.data-v-192a1c9e {
+  color: red;
+}
+.newprice ._span.data-v-192a1c9e {
+  font-size: 18px;
+}
+.oldprice.data-v-192a1c9e {
+  line-height: 25px;
+  font-family: "Microsoft YaHei";
+  margin-left: 10px;
+  color: #999;
+}
+.oldprice ._span.data-v-192a1c9e {
+  text-decoration: line-through;
+}
+.name.data-v-192a1c9e {
+  height: 40px;
+  margin: 5px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.name ._span.data-v-192a1c9e {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.butlist.data-v-192a1c9e {
+  display: flex;
+  justify-content: space-between;
+}
+.bux.data-v-192a1c9e {
+  padding: 5px 10px;
+  font-family: "Microsoft YaHei";
+  color: #999;
+  font-size: 12px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.bux .img.data-v-192a1c9e {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+

@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "sandone": "/components/sand/sandone/sandone",
+    "headtwo": "/components/head/headtwo/headtwo",
+    "huitopone": "/components/huitop/huitopone/huitopone",
+    "bannerone": "/components/banner/bannerone/bannerone",
+    "navigone": "/components/navig/navigone/navigone",
+    "shopone": "/components/shop/shopone/shopone",
+    "domone": "/components/dom/domone/domone"
+  }
+}
