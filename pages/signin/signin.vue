@@ -17,7 +17,7 @@
 			<view class="cont-box goin" @click="gosignin">登录或注册登录</view>
 		</view>
 		<view class="signinapp">
-			<image :src="$changeImg(wxlogo)" mode="widthFix"></image>
+			<image :src="$changeImg(wxlogo)" mode="widthFix" @click="wxsignin"></image>
 		</view>
 		<view class="domtext">若您登陆本平台，将默认您同意<span>爱周边商城用户协议</span>及<span>平台用户隐私政策</span></view>
 	</view>
@@ -49,6 +49,26 @@
 		components:{
 		},
 		onLoad(option){
+			//验证用户是否登录
+			uni.getStorage({
+			    key: 'usedata',
+			    success: function (res) {
+					if(res.data){
+						uni.showToast({
+							icon:'none',
+						    title: '已有登录账号',
+							position:'bottom',
+						    duration: 1000
+						});
+						//跳转首页
+						setTimeout(function(){
+							uni.switchTab({
+								 url: '/pages/index/index'
+							})
+						},2000)
+					}
+			    }
+			});
 			//获取此设备定位地址
 			GetUserLoca().then(res=>{
 				 if(res.status == 0){
@@ -77,30 +97,31 @@
 			},
 			//获取验证码
 			getcode(){
-				if(this.stat & !this.codestat){
-					GetSms(this.phone,null,'api_code').then(res=>{
-						uni.showToast({
-							icon:'none',
-						    title: res.message,
-							position:'bottom',
-						    duration: 2000
-						});
-						if(res.status){
-							this.codestat = true;//验证码发送成功，不可再次发送验证码
-							this.loginstat=true,//已发送过验证码
-							this.gettime();//倒计时
-						}
-					})
-				}else{
-					if(this.codestat){
-						uni.showToast({
-							icon:'none',
-						    title: '请输入正确的手机号',
-							position:'bottom',
-						    duration: 2000
-						});
-					}
+				if(!this.stat){
+					uni.showToast({
+						icon:'none',
+					    title: "请输入正确的手机号",
+						position:'bottom',
+					    duration: 2000
+					});
+					return false;
 				}
+				if(this.codestat){
+					return false;
+				}
+				GetSms(this.phone,null,'api_code').then(res=>{
+					uni.showToast({
+						icon:'none',
+						title: res.message,
+						position:'bottom',
+						duration: 2000
+					});
+					if(res.status){
+						this.codestat = true;//验证码发送成功，不可再次发送验证码
+						this.loginstat=true,//已发送过验证码
+						this.gettime();//倒计时
+					}
+				})
 			},
 			//倒计时
 			gettime(){
@@ -155,13 +176,16 @@
 					});
 					if(res.status){
 						uni.usedata = true;//缓存用户登录数据
+						uni.setStorageSync('usedata', true);//缓存
 						uni.navigateBack({
-							    delta: 1
-							});
-						// uni.setStorageSync('usedata', res.data);
-						// this.fanhui();
+							delta: 1
+						});
 					}
 				})
+			},
+			//微信登录
+			wxsignin(){
+				
 			}
 		}
 	}
@@ -177,8 +201,8 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	left: 0px;
-	height: 0px;
+	left: 0rpx;
+	height: 0rpx;
 }
 .signin-logo{
 	position: absolute;
@@ -248,8 +272,8 @@
 	background: #fff;
 	overflow:hidden;
 	border-radius: 50%;
-	border: 1px solid #fff;
-	box-shadow: 0px 0px 3px #333;
+	border: 1rpx solid #fff;
+	box-shadow: 0rpx 0rpx 6rpx #333;
 }
 .domtext{
 	position: absolute;
@@ -259,7 +283,7 @@
 	margin-left: -300rpx;
 	font-size: $uni-text-font;
 	color: #eee;
-	text-shadow: 0px 1px 1px #333;
+	text-shadow: 0rpx 2rpx 2rpx #333;
 }
 .domtext span{
 	color: #3e98ff;

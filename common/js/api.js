@@ -53,9 +53,11 @@ export const changeImg = (value) =>{
 }
 //提取缓存文件并解析路径
 export const actiImg = (index) =>{
-	if(uni.acti[index]){
-		return uni.http+uni.acti[index].shopimg;
+	if(index){
+		if(uni.acti[index]){
+			return uni.http+uni.acti[index].shopimg;
+		}
 	}else{
-		return "";
+		return null;
 	}
 }

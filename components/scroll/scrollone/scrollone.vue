@@ -13,7 +13,6 @@
 			@scrolltolower="scrolltolower"
 			@refresherrefresh="refresherrefresh"
 			@refresherrestore="refresherrestore"
-			@refresherabort="refresherabort"
 		>
 			<slot></slot>
 		</scroll-view>
@@ -62,11 +61,11 @@
 			},
 			//下拉刷新被复位
 			refresherrestore(){
-				console.log("被复位");
-			},
-			//下拉刷新被中止
-			refresherabort(){
-				console.log("被中止");
+				uni.showToast({
+					icon:"success",
+				    title: '刷新成功',
+				    duration: 2000
+				});
 			}
 		}
 	}

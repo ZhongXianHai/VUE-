@@ -44,16 +44,16 @@
 }
 .box{
 	width: 27%;
-	margin: 10px 3%;
+	margin: 20rpx 3%;
 }
 .img{
 	width: 80%;
-	margin: 0px 10%;
+	margin: 0rpx 10%;
 }
 .name{
-	height: 15px;
-	margin-top: -10px;
-	line-height: 15px;
+	height: 30rpx;
+	margin-top: -20rpx;
+	line-height: 30rpx;
 	color: #333;
 	font-size: $uni-span-font;
 	text-align: center;

@@ -11,8 +11,8 @@
 				<span></span>
 			</view>
 			<view class="shopprice">
-				<span class="newprice">￥{{ item.price }}</span>
-				<span class="oldprice">￥{{ item.oldprice }}</span>
+				<view class="price">￥{{ item.price }}<strong>{{ item.oldprice }}</strong></view>
+				<!-- <span class="newprice"></span><span class="oldprice">￥</span> -->
 				<image class="addcart" src="../../../static/img/gouwuche-select.png" @click="addcart(index)"></image>
 			</view>
 		</view>
@@ -54,18 +54,18 @@
 <style lang="scss" scoped>
 .shopone{
 	width: 94%;
-	margin: 0px 3% 10px;
+	margin: 0rpx 3% 20rpx;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .shopbox{
 	width: 48%;
-	margin-bottom: 10px;
+	margin-bottom: 20rpx;
 	background: #fff;
-	border-radius: 5px;
+	border-radius: 10rpx;
 	overflow: hidden;
-	box-shadow: 0px 0px 2px #999;
+	box-shadow: 0rpx 0rpx 4rpx #999;
 }
 .shopimg{
 	width: 100%;
@@ -73,37 +73,42 @@
 }
 .topimg{
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 0rpx;
+	top: 0rpx;
 	z-index: 1;
 }
 .shoptitle{
-	height: 30px;
-	line-height: 30px;
+	height: 60rpx;
+	line-height: 60rpx;
 	overflow: hidden;
 	font-size: $uni-name-font;
-	padding: 0px 10px;
+	padding: 0rpx 20rpx;
 }
 .shopprice{
-	padding: 5px 10px 15px;
+	padding: 10rpx 20rpx 30rpx;
 	display: flex;
 	align-items: center;
 	position: relative;
 }
-.shopprice span.newprice{
+.shopprice .price{
+	font-size: $uni-title-font;
 	color: red;
 }
-.shopprice span.oldprice{
-	margin-left: 2px;
-	font-size: 10px;
+.shopprice .price span{
+	font-size: $uni-text-font;
+}
+.shopprice .price strong{
+	font-weight: 400;
+	margin-left: 10rpx;
+	font-size: $uni-span-font;
 	text-decoration:line-through;
 	color: #999;
 }
 .shopprice .addcart{
 	position: absolute;
-	top: 0px;
-	right: 15px;
-	width: 24px;
-	height: 24px;
+	top: 0rpx;
+	right: 30rpx;
+	width: 48rpx;
+	height: 48rpx;
 }
 </style>

@@ -32,12 +32,12 @@
 	width: 100%;
 }
 .navigbox{
-	margin: 10px 5px;
-	height: 30px;
-	border-radius:15px ;
+	margin: 20rpx 10rpx;
+	height: 60rpx;
+	border-radius:30rpx ;
 	font-size:$uni-text-font;
 	text-align: center;
-	line-height: 30px;
+	line-height: 60rpx;
 }
 .select{
 	color: #fff;

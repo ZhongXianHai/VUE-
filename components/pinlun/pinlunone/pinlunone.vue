@@ -1,4 +1,4 @@
-<!-- 评论1 -->
+<!-- 商品评论 -->
 <template>
 	<view class="pinlunone">
 		<view v-for="(item,index) in pinlundata" :key="index">
@@ -10,7 +10,7 @@
 				</view>
 			</view>
 			<view class="pltext">{{ item.text }}</view>
-			<image class="plimg" v-show="item.img" :style="{'width':imagewidth+'px','height':imagewidth+'px'}" :src="$changeImg(item.img)" mode="widthFix" @click="previewImg(index)"></image>
+			<image class="plimg" v-show="item.img" :src="$changeImg(item.img)" mode="widthFix" @click="previewImg(index)" @error="onerror($event,index)"></image>
 		</view>
 	</view>
 </template>
@@ -19,30 +19,30 @@
 		name:"pinlunone",
 		data() {
 			return {
-				'usehead':'/uploads/head/head.jpg',//，默认用户头像
+				noimg:"/uploads/ico/ico220224059062.png",//没有图片
+				usehead:"/uploads/head/head.jpg",//，默认用户头像
 			}
 		},
 		props:{
 			pinlundata:{
 				type:Array,
-				default:()=>[],
-			},
-			imagewidth:{
-				type:Number,
-				default:80,
-			},
+				default:()=>{},
+			}
 		},
 		methods: {
+			//图片加载失败
+			onerror(e,i){
+				if(this.pinlundata[i].img){
+					this.pinlundata[i].img = this.noimg;
+				}
+			},
 			//转化时间
 			datefun(value){
-				var date = new Date(value*1000);
-				var year = date.getFullYear();
-				var month = ("0" + (date.getMonth() + 1)).slice(-2);
-				var sdate = ("0" + date.getDate()).slice(-2);
-				// var hour = ("0" + date.getHours()).slice(-2);
-				// var minute = ("0" + date.getMinutes()).slice(-2);
-				// var second = ("0" + date.getSeconds()).slice(-2);
-				var result = year + "-" + month + "-" + sdate;
+				let date = new Date(value*1000);
+				let year = date.getFullYear();
+				let month = ("0" + (date.getMonth() + 1)).slice(-2);
+				let sdate = ("0" + date.getDate()).slice(-2);
+				let result = year + "-" + month + "-" + sdate;
 				return result;
 			},
 			// 预览图片
@@ -65,33 +65,33 @@
 }
 .plhead{
 	width: 100%;
-	height: 50px;
+	height: 100rpx;
 	margin-top: 20rpx;
 	display: flex;
 	align-items: center;
 }
 .useimg{
-	width: 30px;
-	height: 30px;
-	border: 1px solid #ddd;
+	width: 60rpx;
+	height: 60rpx;
+	border: 2rpx solid #ddd;
 	border-radius: 50%;
 	overflow: hidden;
 }
 .usename{
 	flex: 1;
 	overflow: hidden;
-	padding-left: 10px;
+	padding-left: 20rpx;
 }
 .usename p{
 	color: #333;
-	height: 20px;
+	height: 40rpx;
 	overflow: hidden;
 	font-size: $uni-name-font;
 }
 .name-date{
 	color: #999;
-	height: 15px;
-	line-height: 15px;
+	height: 30rpx;
+	line-height: 30rpx;
 	overflow: hidden;
 	font-size: $uni-span-font;
 }
@@ -100,10 +100,13 @@
 	width: 100%;
 	margin: 10rpx 0rpx;
 	font-size: $uni-name-font;
-	line-height: 16px;
+	line-height: 32rpx;
 }
 .plimg{
-	margin: 5px 0px;
-	border-radius: 5px;
+	width: 160rpx;
+	height: 160rpx;
+	overflow: hidden;
+	margin: 10rpx 0rpx;
+	border-radius:10rpx;
 }
 </style>

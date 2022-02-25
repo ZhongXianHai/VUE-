@@ -1,13 +1,11 @@
 <!-- 导航图标，带数字 -->
 <template>
 	<view class="imgtwo">
-		<view class="contbox" v-for="(item,index) in icodata" @key="index" @click="icobut(index)">
-			<view class="icobox">
-				<image :src="$changeImg(item.image)" mode="widthFix"></image>
-				<view class="icobox-name">{{ item.name }}</view>
-			</view>
-			<view class="icosum" v-show="icodatasum[index]">{{ icodatasum[index] }}</view>
+		<view class="icobox">
+			<image :src="$changeImg(data.image)" mode="widthFix"></image>
+			<view class="icobox-name">{{ data.name }}</view>
 		</view>
+		<view class="icosum" v-show="sum">{{ sum }}</view>
 	</view>
 </template>
 
@@ -19,20 +17,13 @@
 			}
 		},
 		props:{
-			icodata:{
-				type:Array,
-				default:() => [],
+			sum:{
+				type:Number,
+				default:0,
 			},
-			icodatasum:{
-				type:Array,
+			data:{
+				type:Object,
 				default:() => [],
-			}
-		},
-		methods: {
-			icobut(i){
-				this.$emit('icobut',{
-					'index':i,
-				});
 			}
 		}
 	}
@@ -40,30 +31,24 @@
 
 <style lang="scss" scoped>
 .imgtwo{
-	width: 100%;
-	display: flex;
-	margin-top: 20rpx;
-	justify-content: space-between;
-}
-.contbox{
 	position: relative;
 	text-align: center;
 }
-.contbox:active{
+.imgtwo:active{
 	background: #eee;
 }
-.contbox image{
-	width: 60rpx;
-	height: 60rpx;
+.imgtwo image{
+	width: 80%;
+	margin: 0rpx 10%;
 	vertical-align: middle;
 	line-height: 0rpx;
 }
-.contbox .icobox-name{
-	font-size: $uni-text-font;
+.imgtwo .icobox-name{
+	font-size: $uni-span-font;
 	color: #333;
 	line-height: 30rpx;
 }
-.contbox .icosum{
+.imgtwo .icosum{
 	position: absolute;
 	left:40rpx;
 	top: -10rpx;

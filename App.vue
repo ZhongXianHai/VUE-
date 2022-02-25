@@ -4,6 +4,7 @@
 		//项目加载
 		onLaunch: function() {
 			uni.http = "http://127.0.0.1:82";//缓存平台请求网址
+			// uni.http = "http://www.zhoubianshop.com/";//缓存平台请求网址
 			this.getlabeldata();//缓存平台所有活动数据
 			this.getactidata();//缓存平台所有标签数据
 			uni.getSystemInfo({//缓存用户登录设备数据
@@ -20,11 +21,10 @@
 					url:'/api/signin/uselogintitle',
 					data:{},
 				})
-				console.log(res.data);
 				if(res.status){
-					uni.usedata = true;
+					uni.setStorageSync('usedata',true);
 				}else{
-					uni.usedata = false;
+					uni.setStorageSync('usedata',false);
 					uni.navigateTo({//跳转登录
 						 url: '/pages/signin/signin'
 					})

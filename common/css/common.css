@@ -5,6 +5,7 @@
 body{
 	/* background: #f7f7f7; */
 	background: #eee;
+	font-weight: 400;
 	/* #ifdef  H5 || APP-PLUS */
 	font-family: "思源黑体";
 	/* #endif */

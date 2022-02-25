@@ -319,6 +319,24 @@
             }
             
         }
+        ,{
+            "path" : "components/dom/domtwo/domtwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/payshop/payshop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	//全局配置
 	"globalStyle": {

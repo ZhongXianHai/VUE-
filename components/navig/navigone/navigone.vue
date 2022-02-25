@@ -42,8 +42,8 @@
 }
 .navigbox{
 	width: 16%;
-	padding: 5px 2%;
-	border-radius: 5px;
+	padding: 10rpx 2%;
+	border-radius: 10rpx;
 	background: #fff;
 }
 .navigimg{
@@ -52,7 +52,7 @@
 }
 .navigtext{
 	width: 100%;
-	margin-top: -6px;
+	margin-top: -12rpx;
 	font-size: $uni-text-font;
 	color: #555;
 	text-align: center;

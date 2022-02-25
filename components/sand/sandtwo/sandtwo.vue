@@ -45,13 +45,13 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	left: 0px;
-	top: 0px;
+	left: 0rpx;
+	top: 0rpx;
 }
 .sandtwo-cont{
 	position: absolute;
 	width: 100%;
-	left: 0px;
-	bottom: 0px;
+	left: 0rpx;
+	bottom: 0rpx;
 }
 </style>

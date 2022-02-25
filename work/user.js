@@ -27,3 +27,14 @@ export function GetUserLoca(){
         }
     })
 }
+
+/**
+ * 获取登录的用户信息
+ */
+export function GetUsertitle(){
+   return myRequest({
+       url:'/api/user/loginusetitle',
+       data:{}
+   })
+}
+

@@ -22,16 +22,16 @@
 
 <style lang="scss" scoped>
 .domone{
-	height: 60px;
-	font-size: $uni-name-font;
-	color: #999;
+	height: 120rpx;
+	font-size: $uni-text-font;
+	color: #777;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .domone .ico{
-	width: 15px;
-	height: 15px;
-	margin-right: 5px;
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 10rpx;
 }
 </style>
